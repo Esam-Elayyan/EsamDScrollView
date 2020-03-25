@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EsamDScrollView_Example' do
+  pod 'EsamDScrollView', :path => '../'
+
+  target 'EsamDScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
