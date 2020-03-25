@@ -10,13 +10,16 @@
 		0E94F77FA5220115D8F09749647AACA0 /* EsamDScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E47AF90B9F64FBE087D7AD075A624294 /* EsamDScrollView-dummy.m */; };
 		1BEC80F350D211FBD7103F994A420EAD /* Pods-EsamDScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C19243B5333AF63CFA82F9A662600AFC /* Pods-EsamDScrollView_Example-dummy.m */; };
 		269EFB73A7991E9D53E9AED857069043 /* Pods-EsamDScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5221C7DC411DE63BFFB13C5FEF5820 /* Pods-EsamDScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DF061747BE3B0F974A2FDA145C6D288 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31B7E1DD4A0083DF76AA4E8A511864 /* ReplaceMe.swift */; };
 		50323081F8AA85C4D87BBFFECF2B8F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7D62F36B0428A1B7009AF15FEC6CE010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D8356ED8C90DF5957B9574D6810756FA /* EsamDScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2E4E3DCFB170EC08ABC76418A16D05 /* EsamDScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1F2A7A781C5B12808E0708A762AF75E /* Pods-EsamDScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC3DD31E5B9288DDFE5007DDD10B04 /* Pods-EsamDScrollView_Tests-dummy.m */; };
 		F2502F775D67E919BC6EFC11682A35F2 /* Pods-EsamDScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EAB4AEB391487CC5FF701DACAD0A16 /* Pods-EsamDScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F270BB9D71D540E68D837D3DA4B57999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAD8ECD5242B6D1F0004F370 /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8ECD1242B6D1F0004F370 /* DScrollView+.swift */; };
+		FAD8ECD6242B6D1F0004F370 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8ECD2242B6D1F0004F370 /* DScrollViewElement.swift */; };
+		FAD8ECD7242B6D1F0004F370 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8ECD3242B6D1F0004F370 /* DScrollViewContainer.swift */; };
+		FAD8ECD8242B6D1F0004F370 /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8ECD4242B6D1F0004F370 /* DScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,24 +44,23 @@
 		01D4B767B991F9C11646D7044CF16A30 /* EsamDScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EsamDScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		07F507222A0C99C1E165CA2178010669 /* Pods-EsamDScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsamDScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DB9A1CBBF6E83DEC5CF3C352C4BF7E7 /* EsamDScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EsamDScrollView.release.xcconfig; sourceTree = "<group>"; };
-		2610577B3DF7917E9A12EF2D81A9CD10 /* Pods_EsamDScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsamDScrollView_Example.framework; path = "Pods-EsamDScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2610577B3DF7917E9A12EF2D81A9CD10 /* Pods_EsamDScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsamDScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE89552ACA22C50ECFB7A71B3C18D1 /* Pods-EsamDScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsamDScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EF8507D90D7734324567546A94D5398 /* Pods-EsamDScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsamDScrollView_Example-Info.plist"; sourceTree = "<group>"; };
-		4B31B7E1DD4A0083DF76AA4E8A511864 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EsamDScrollView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4F78C971632CEF0B71775650767D6EBD /* EsamDScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EsamDScrollView.framework; path = EsamDScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F78C971632CEF0B71775650767D6EBD /* EsamDScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EsamDScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		558E9FE801824C18D0BD182C4DBDA880 /* EsamDScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EsamDScrollView.modulemap; sourceTree = "<group>"; };
 		5A2E4E3DCFB170EC08ABC76418A16D05 /* EsamDScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EsamDScrollView-umbrella.h"; sourceTree = "<group>"; };
 		66524F4430B592B0B5E8EB40CC7207BE /* EsamDScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EsamDScrollView-Info.plist"; sourceTree = "<group>"; };
 		6ACD92A50A420119EE776650A421D442 /* Pods-EsamDScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsamDScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		71D1D773BFF1A7839E8C9EBB794F170D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		71D1D773BFF1A7839E8C9EBB794F170D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		89EAB4AEB391487CC5FF701DACAD0A16 /* Pods-EsamDScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsamDScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		98874BD90962463CA0DE40863E3F4734 /* Pods-EsamDScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsamDScrollView_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6A692D1628EA597E45080E48A47AEB1 /* Pods-EsamDScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EsamDScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFEC2C895909ED5ABD5651BEC719B6B4 /* Pods-EsamDScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EsamDScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C19243B5333AF63CFA82F9A662600AFC /* Pods-EsamDScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsamDScrollView_Example-dummy.m"; sourceTree = "<group>"; };
-		CC200812F3CA667CF4E3586414ACDC54 /* EsamDScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EsamDScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC200812F3CA667CF4E3586414ACDC54 /* EsamDScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EsamDScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D17A0881BC28FDD98BCFD840914752DF /* Pods-EsamDScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsamDScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA5221C7DC411DE63BFFB13C5FEF5820 /* Pods-EsamDScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EsamDScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DDFC3DD31E5B9288DDFE5007DDD10B04 /* Pods-EsamDScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EsamDScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -68,8 +70,12 @@
 		EB2E07D426786A3A71482CE5E00544AA /* Pods-EsamDScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EsamDScrollView_Example.modulemap"; sourceTree = "<group>"; };
 		EDEDFDC27C60BC7720713474F52428E4 /* Pods-EsamDScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EsamDScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9BA69A2E0B7CEE696E980E9B85AD615 /* Pods-EsamDScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EsamDScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA5F462EF1305A34E482F073F7F14016 /* Pods_EsamDScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EsamDScrollView_Tests.framework; path = "Pods-EsamDScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB591807F3DF88BAA48089D122D8DB34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FA5F462EF1305A34E482F073F7F14016 /* Pods_EsamDScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsamDScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8ECD1242B6D1F0004F370 /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		FAD8ECD2242B6D1F0004F370 /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		FAD8ECD3242B6D1F0004F370 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
+		FAD8ECD4242B6D1F0004F370 /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		FB591807F3DF88BAA48089D122D8DB34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +167,7 @@
 		86110FE8E6176DBAF976702769E70638 /* EsamDScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				4B31B7E1DD4A0083DF76AA4E8A511864 /* ReplaceMe.swift */,
+				FAD8ECD0242B6D1F0004F370 /* Source */,
 				B09B7660FC9DEBF5F8AB9F03F56EF41A /* Pod */,
 				3353963EB2B9C9313A9FFC2E4B5E1680 /* Support Files */,
 			);
@@ -221,6 +227,17 @@
 				0032479303B155706A7198D14706A652 /* Pods-EsamDScrollView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAD8ECD0242B6D1F0004F370 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8ECD1242B6D1F0004F370 /* DScrollView+.swift */,
+				FAD8ECD2242B6D1F0004F370 /* DScrollViewElement.swift */,
+				FAD8ECD3242B6D1F0004F370 /* DScrollViewContainer.swift */,
+				FAD8ECD4242B6D1F0004F370 /* DScrollView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +334,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					89E4455C397757003B339565809F3CD5 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,8 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD8ECD6242B6D1F0004F370 /* DScrollViewElement.swift in Sources */,
+				FAD8ECD5242B6D1F0004F370 /* DScrollView+.swift in Sources */,
+				FAD8ECD7242B6D1F0004F370 /* DScrollViewContainer.swift in Sources */,
+				FAD8ECD8242B6D1F0004F370 /* DScrollView.swift in Sources */,
 				0E94F77FA5220115D8F09749647AACA0 /* EsamDScrollView-dummy.m in Sources */,
-				3DF061747BE3B0F974A2FDA145C6D288 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +447,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests.modulemap";
@@ -456,7 +481,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EsamDScrollView/EsamDScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EsamDScrollView/EsamDScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EsamDScrollView/EsamDScrollView.modulemap";
 				PRODUCT_MODULE_NAME = EsamDScrollView;
@@ -464,7 +489,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,7 +513,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsamDScrollView_Example/Pods-EsamDScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsamDScrollView_Example/Pods-EsamDScrollView_Example.modulemap";
@@ -521,7 +546,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsamDScrollView_Example/Pods-EsamDScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsamDScrollView_Example/Pods-EsamDScrollView_Example.modulemap";
@@ -587,13 +612,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -650,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -679,7 +703,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests.modulemap";
@@ -712,7 +736,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EsamDScrollView/EsamDScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EsamDScrollView/EsamDScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EsamDScrollView/EsamDScrollView.modulemap";
 				PRODUCT_MODULE_NAME = EsamDScrollView;
@@ -720,7 +744,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
