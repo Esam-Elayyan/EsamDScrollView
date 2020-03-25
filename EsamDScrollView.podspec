@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Esam-Elayyan/EsamDScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Esam-Elayyan' => 'hashtechsdevteam@gmail.com' }
+  s.author           = { 'Esam-Elayyan' => 'esamelayyan93@gmail.com' }
   s.source           = { :git => 'https://github.com/Esam-Elayyan/EsamDScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
