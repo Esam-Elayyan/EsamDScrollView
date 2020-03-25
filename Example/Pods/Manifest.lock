@@ -1,16 +1,24 @@
 PODS:
-  - EsamDScrollView (0.1.0)
+  - EsamDScrollView (0.1.0):
+    - TinyConstraints (~> 4.0.0)
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - EsamDScrollView (from `../`)
+  - TinyConstraints (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - TinyConstraints
 
 EXTERNAL SOURCES:
   EsamDScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EsamDScrollView: a28a4fa40931368f88a63eacbb2b6ec28d15817c
+  EsamDScrollView: be539c2aeb3eff16e518b52ed3a0b07c55fc0c75
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: ed34df6c35f148a4bab2ef890c9a32223b512685
+PODFILE CHECKSUM: 926d2c21b4a2463dfd981c623395e601f80b77ab
 
 COCOAPODS: 1.9.1
