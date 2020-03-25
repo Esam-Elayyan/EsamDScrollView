@@ -1,0 +1,6 @@
+framework module EsamDScrollView {
+  umbrella header "EsamDScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_EsamDScrollView_Tests {
+  umbrella header "Pods-EsamDScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

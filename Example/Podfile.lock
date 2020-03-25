@@ -1,0 +1,16 @@
+PODS:
+  - EsamDScrollView (0.1.0)
+
+DEPENDENCIES:
+  - EsamDScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  EsamDScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EsamDScrollView: a28a4fa40931368f88a63eacbb2b6ec28d15817c
+
+PODFILE CHECKSUM: ed34df6c35f148a4bab2ef890c9a32223b512685
+
+COCOAPODS: 1.9.1

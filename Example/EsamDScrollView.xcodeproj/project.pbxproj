@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		01AC08FCD8DB8EE08A212401 /* Pods_EsamDScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsamDScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D969A1CD2CB0083536A4089 /* EsamDScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EsamDScrollView.podspec; path = ../EsamDScrollView.podspec; sourceTree = "<group>"; };
+		1D969A1CD2CB0083536A4089 /* EsamDScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EsamDScrollView.podspec; path = ../EsamDScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33CC6BB6E58AFB723E7347A9 /* Pods-EsamDScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsamDScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EsamDScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsamDScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* EsamDScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsamDScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		814DD7DE93BA053D2B7AD8E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A5EDD891EEADB640B045C4A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		814DD7DE93BA053D2B7AD8E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A5EDD891EEADB640B045C4A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5766264C36C7B7D7EFF05D6 /* Pods-EsamDScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsamDScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-EsamDScrollView_Tests/Pods-EsamDScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA6674E7B3FD2A4FF01F32A /* Pods_EsamDScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsamDScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287B0D718C0D95401812FBD /* Pods-EsamDScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsamDScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-EsamDScrollView_Example/Pods-EsamDScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				33CC6BB6E58AFB723E7347A9 /* Pods-EsamDScrollView_Tests.debug.xcconfig */,
 				C5766264C36C7B7D7EFF05D6 /* Pods-EsamDScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
