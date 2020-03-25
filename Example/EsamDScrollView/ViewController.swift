@@ -8,6 +8,7 @@
 
 import UIKit
 import EsamDScrollView
+import TinyConstraints
 
 class ViewController: UIViewController {
 
@@ -33,8 +34,8 @@ class ViewController: UIViewController {
                            elements: scrollViewElement0, scrollViewElement1)
         
         scrollViewElement1.addSubview(label)
-        label.edgeTo(scrollViewElement1)
-        //label.centerInSuperview()
+        //label.edgeTo(scrollViewElement1)
+        label.centerInSuperview()
     }
 
 }
